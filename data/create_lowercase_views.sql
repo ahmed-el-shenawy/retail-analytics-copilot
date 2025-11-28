@@ -1,0 +1,17 @@
+CREATE VIEW IF NOT EXISTS alphabetic_list_of_products AS SELECT * FROM "Alphabetical list of products";
+CREATE VIEW IF NOT EXISTS categories AS SELECT * FROM Categories;
+CREATE VIEW IF NOT EXISTS customers AS SELECT * FROM Customers;
+CREATE VIEW IF NOT EXISTS customer_customer_demo AS SELECT * FROM CustomerCustomerDemo;
+CREATE VIEW IF NOT EXISTS customer_demographics AS SELECT * FROM CustomerDemographics;
+CREATE VIEW IF NOT EXISTS employees AS SELECT * FROM Employees;
+CREATE VIEW IF NOT EXISTS employee_territories AS SELECT * FROM EmployeeTerritories;
+CREATE VIEW IF NOT EXISTS invoices AS SELECT * FROM Invoices;
+CREATE VIEW IF NOT EXISTS order_details AS SELECT * FROM "Order Details";
+CREATE VIEW IF NOT EXISTS order_details_extended AS SELECT * FROM "Order Details Extended";
+CREATE VIEW IF NOT EXISTS order_subtotals AS SELECT * FROM "Order Subtotals";
+CREATE VIEW IF NOT EXISTS orders AS SELECT * FROM Orders;
+CREATE VIEW IF NOT EXISTS products AS SELECT * FROM Products;
+CREATE VIEW IF NOT EXISTS regions AS SELECT * FROM Regions;
+CREATE VIEW IF NOT EXISTS shippers AS SELECT * FROM Shippers;
+CREATE VIEW IF NOT EXISTS suppliers AS SELECT * FROM Suppliers;
+CREATE VIEW IF NOT EXISTS territories AS SELECT * FROM Territories;

@@ -1,0 +1,6 @@
+scikit-learn==1.7.2
+sentence-transformers==5.1.2
+dspy==3.0.4
+langgraph==1.0.4
+pandas==2.3.3
+
